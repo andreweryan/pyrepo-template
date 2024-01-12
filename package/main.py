@@ -4,6 +4,7 @@ This is a template.
 """
 
 def main():
+    a = [{'':'','':'','':'','':'', '':''}]
     print(f"Hello, World! Your OS is: {platform.platform()}")
 
 
