@@ -1,2 +1,2 @@
-import unittest
-from package.main import function
+import pytest
+from package import function
