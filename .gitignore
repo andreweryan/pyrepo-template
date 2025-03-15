@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
-/__pycache__/*
+__pycache__/
+*.pyc
 
 # Distribution / packaging
 .Python
@@ -20,3 +21,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+.venv
+.DS_Store
+*/.DS_Store
+package.sh

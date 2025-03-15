@@ -3,19 +3,27 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "package_name"
-version = "0.0.1"
+name = "repo_name"
+version = "0.1.0"
 authors = [
     { name = "Andrew Ryan", email = "andrewryan@duck.com" }
 ]
-description = "package description"
-readme = "README.md"
+description = "desctiption"
+keywords = ["keyword1", "keyword2", "keyword3"]
+readme = "README.pypi.md"
+license = {text = "MIT"}
 requires-python = ">=3.12"
-dependencies = []
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+"Homepage" = "https://github.com/andreweryan/repo_name"
+"Bug Tracker" = "https://github.com/andreweryan/repo_name/issues"
+"Source Code" = "https://github.com/andreweryan/earthsrepo_nameearch"
 
 [tool.setuptools]
-package-dir = {"" = "src"}
-packages = ["package_name"]
+packages = ["repo_name"]
 
 [project.scripts]
-package_name = "package_name.cli:main"
+repo_name = "repo_name.cli:main"
