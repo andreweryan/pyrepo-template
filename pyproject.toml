@@ -20,7 +20,7 @@ dependencies = {file = ["requirements.txt"]}
 [project.urls]
 "Homepage" = "https://github.com/andreweryan/repo_name"
 "Bug Tracker" = "https://github.com/andreweryan/repo_name/issues"
-"Source Code" = "https://github.com/andreweryan/earthsrepo_nameearch"
+"Source Code" = "https://github.com/andreweryan/repo_name"
 
 [tool.setuptools]
 packages = ["repo_name"]
