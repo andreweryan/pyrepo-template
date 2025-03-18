@@ -22,8 +22,8 @@ dependencies = {file = ["requirements.txt"]}
 "Bug Tracker" = "https://github.com/andreweryan/repo_name/issues"
 "Source Code" = "https://github.com/andreweryan/repo_name"
 
-[tool.setuptools]
-packages = ["repo_name"]
+[tool.setuptools.packages]
+find = {}
 
 [project.scripts]
 repo_name = "repo_name.cli:main"
